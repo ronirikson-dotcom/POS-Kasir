@@ -1,0 +1,5 @@
+{
+  "name": "Aksa-POS",
+  "description": "A comprehensive Point of Sale system with entity breakdown, QR payment, and dashboard.",
+  "requestFramePermissions": []
+}

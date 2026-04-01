@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2F80ED;
+  --color-primary-hover: #256bbd;
+  --color-success: #27AE60;
+  --color-warning: #F2C94C;
+  --color-danger: #EB5757;
+  --color-danger-hover: #c94a4a;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #F3F4F6;
+  color: #1F2937;
+  font-family: "Inter", sans-serif;
+}
+
+/* Custom scrollbar for POS item list */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
